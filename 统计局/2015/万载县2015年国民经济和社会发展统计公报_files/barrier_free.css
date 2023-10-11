@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body{ width:100%; height:100%;}
+/* body, td, input, select, textarea{ font-size:12px;} */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,tr{ margin:0; padding:0;}
+/* ul, ol{ list-style:none;}
+li {list-style-type:none} */
+img{border:0; vertical-align:top;}
+input,select,textarea{vertical-align:middle;}
+
+/* link */
+/* a{ text-decoration:none; } */
+/* a:hover{text-decoration:none; } */
+
+button{ border:none; cursor:pointer;}
+
+.clearboth{clear:both; width:0px; height:0px; font-size:0px; overflow:hidden;}
+
+.page_y {border: 1px solid #ff0000; height: 100%; left: 135px; position: fixed; top: 0; width: 0; z-index: 100000;}
+.page_x {border: 1px solid #ff0000; height: 0; left: 0; position: fixed; top: 135px; width: 100%; z-index: 100000;}
+
+
+.accessibility_txt_content {background: none repeat scroll 0 0 #fff; border: 1px solid #d3e0f0; bottom: 0; display: none; height: 140px; position: fixed; width: 100%; z-index: 99999; overflow-y:auto;}
+.accessibility_txt_content td {background: none repeat scroll 0 0 #fff; font-size: 60px; text-align: center;}
+
+.barrier_free{ height:60px; padding-top:10px; background-color:#606060; margin:0; display:none;}
+.barrier_free .bf_main{ width:1003px; margin:0 auto;}
+.barrier_free .bf_main ul{ margin-left:50px;}
+.barrier_free .bf_main a{ cursor:pointer;}
+.barrier_free .bf_main li{ float:left; position:relative; margin-right:19px;}
+.barrier_free .bf_main li a.barrier_free_btn01{ background:url(../images/wza/barrier_free_btn01.png) no-repeat; width:107px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn02{ background:url(../images/wza/barrier_free_btn02.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn03{ background:url(../images/wza/barrier_free_btn03.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn04{ background:url(../images/wza/barrier_free_btn04.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn05{ background:url(../images/wza/barrier_free_btn05.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn06{ background:url(../images/wza/barrier_free_btn06.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn07{ background:url(../images/wza/barrier_free_btn07.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn08{ background:url(../images/wza/barrier_free_btn08.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn09{ background:url(../images/wza/barrier_free_btn09.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn10{ background:url(../images/wza/barrier_free_btn10.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn11{ background:url(../images/wza/barrier_free_btn11.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.barrier_free_btn12{ background:url(../images/wza/barrier_free_btn12.png) no-repeat; width:52px; height:50px; display:inline-block;}
+.barrier_free .bf_main li a.on{ background-position:bottom center;}
+
+.barrier_free .bf_main li.fzll{ margin-right:39px;}
+.barrier_free .bf_main li .zt_select{ position:absolute; top:51px; left:0px; width:151px; height:171px; background:url(../images/wza/barrier_free_zt_select_bg.gif) no-repeat;  padding:8px 0px 0px 5px; display:none; z-index: 99;}
+.barrier_free .zt_select dd{ height:25px; padding-top:3px; padding-left:19px; margin-bottom:5px;}
+.barrier_free .zt_select dd.selected{ background:url(../images/wza/barrier_free_zt_selected.png) no-repeat;}
+.barrier_free .zt_select a{ padding-left:8px;font-size:14px; font-family:'simsum'; font-weight:bold; width:110px; height:21px; display:inline-block; line-height:21px;}
+.barrier_free .zt_select a.bai_hei{ color:#000000; background-color:#fff;}
+.barrier_free .zt_select a.lan_huang{ color:#ffff00; background-color:#0000ff}
+.barrier_free .zt_select a.lan_hei{ color:#000000; background-color:#fefecc}
+.barrier_free .zt_select a.hei_huang{ color:#ffff00; background-color:#000000}
+.barrier_free .zt_select a.ys{ color:#333333;}
+
+.text_decoration a:hover {text-decoration:underline;}
+
+.display_none {display: none;}
+
+.margin_auto {margin:0 auto;}
+
+.bf_main_font {font-size: 14px; line-height: 22px;}
+
+.bf_btn {vertical-align:top; padding-top:3px;}
+
+/* .main_container_bg {background: url(huadu_index2014_bg_top.jpg) repeat-x center top;} */
